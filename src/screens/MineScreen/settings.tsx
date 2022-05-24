@@ -20,7 +20,7 @@ export default function Settings() {
 			{
 				list.map((item, i) => (
 					<ListItem key={i} bottomDivider>
-							<ListItem.Title>{item.title}</ListItem.Title>
+							<ListItem.Title><Text>{item.title}</Text></ListItem.Title>
 						<ListItem.Chevron tvParallaxProperties />
 					</ListItem>
 				))
